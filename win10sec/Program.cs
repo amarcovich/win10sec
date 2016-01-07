@@ -29,7 +29,7 @@ namespace win10sec
 
             if (args.Length < 2)
             {
-                Console.WriteLine("[-] ERROR: requires two input files\nExample: win10sec.exe <template-file> <gpreport-export-file>");
+                Console.WriteLine("[-] ERROR: requires two input files\nExample: win10sec.exe <gpo-backup-file> <secedit-export-file>");
                 return;
             }
 
